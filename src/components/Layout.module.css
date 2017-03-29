@@ -1,0 +1,9 @@
+:global(html, body) {
+  margin: 0;
+  height: 100%;
+}
+
+.container {
+  font-family: 'Input Mono', monospace;
+  height: 100%;
+}

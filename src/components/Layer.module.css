@@ -1,0 +1,39 @@
+.layer {
+  margin: 0;
+  list-style: none;
+  border-bottom: 1px solid #e2e2e2;
+  background: #fff;
+  margin-bottom: 3px;
+  color: #C9D6DF;
+  font-size: 0.8em;
+  overflow: hidden;
+}
+
+.layer .layerContent {
+  display: inline-block;
+  padding: 10px;
+  border-left: 7px solid #e2e2e2;
+  float: left;
+}
+
+.removeLayer {
+  color: #ddd;
+  float: right;
+  display: none;
+  padding: 10px;
+}
+
+.layer:hover .removeLayer {
+  display: inline-block;
+}
+
+.currentLayer .layerContent {
+  border-color: #F38181;
+}
+
+.layerPreview {
+  color: #ddd;
+  width: 130px;
+  height: 1em;
+  overflow: hidden;
+}

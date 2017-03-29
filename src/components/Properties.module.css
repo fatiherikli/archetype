@@ -1,0 +1,111 @@
+.container {
+  background: #F3F6F6;
+  border-left: 2px solid #EFF0F4;
+  box-sizing: border-box;
+  padding: 10px;
+  width: 250px;
+  height: 100%;
+  right: 0;
+  position: fixed;
+}
+
+.container h3 {
+  color: #29C6CD;
+  font-weight: normal;
+  margin: 0;
+  padding: 3px;
+}
+
+.properties {
+  padding: 10px 5px;
+}
+
+.properties label {
+  font-size: 0.8em;
+  color: gray;
+  width: 80px;
+  display: inline-block;
+}
+
+.properties .input {
+  font-family: "Input Mono", Monospace;
+  padding: 5px 5px;
+  font-size: 0.8em;
+  display: inline-block;
+  margin: 0 5px;
+  border: 2px solid #dadada;
+  border-radius: 5px;
+  width: 50px;
+}
+
+.properties .input:focus,
+.properties .textarea:focus {
+  border-color: #F38181;
+  outline: none;
+}
+
+.row {
+  padding: 3px 0;
+}
+
+.select {
+  padding: 5px;
+  margin: 0;
+  width: 100px;
+}
+
+.charList {
+  margin: 0;
+  padding: 0 0;
+  overflow: hidden;
+}
+
+.charList li {
+  list-style: none;
+  padding: 5px 4px 7px;
+  font-size: 1.3em;
+  margin: 9px 7px 0 0;
+  background: white;
+  white-space: pre;
+  display: inline-block;
+  float: left;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  color: gray;
+  cursor: pointer;
+}
+
+.charList li.selected {
+  border-color: #F38181;
+}
+
+.panel {
+  padding-bottom: 5px;
+  overflow: hidden;
+}
+
+.textarea {
+  font-family: "Input Mono", Monospace;
+  padding: 9px;
+  font-size: 0.8em;
+  display: inline-block;
+  margin: 5px 0;
+  border: 2px solid #dadada;
+  line-height: 1.4em;
+  height: 60px;
+}
+
+.documentActions a {
+  color: gray;
+}
+
+.documentActions {
+  margin: 15px 0;
+  padding: 0;
+}
+
+.documentActions li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}

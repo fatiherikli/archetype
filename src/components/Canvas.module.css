@@ -1,0 +1,55 @@
+.canvas {
+  width: calc(100% - 250px);
+  right: 0;
+  position: absolute;
+  user-select: none;
+  padding-top: 40px;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.canvas h2 {
+  font-weight: normal;
+  padding: 7px;
+  margin: 30px 40px 20px;
+  font-size: 1.2em;
+}
+
+.page {
+  margin-left: 45px;
+}
+
+.cell {
+  background: #F3F6F6;
+  display: inline-block;
+  padding: 0.1px;
+  margin: 0.5px;
+  white-space: pre;
+}
+
+.current {
+  background: yellow;
+}
+
+.showResizeAnchor .current {
+  background: lightblue;
+}
+
+.cell::selection {
+  /*background: yellow;*/
+  background: transparent;
+}
+
+/* Modes */
+
+.SELECT {
+  cursor: default;
+}
+
+.DRAW {
+  cursor: crosshair;
+}
+
+.TYPE {
+  cursor: text;
+}

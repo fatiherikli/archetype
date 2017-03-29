@@ -1,0 +1,68 @@
+.toolbox {
+  background: #F3F6F6;
+  border-right: 2px solid #EFF0F4;
+  box-sizing: border-box;
+  padding: 10px;
+  width: 250px;
+  height: 100%;
+  position: fixed;
+  overflow: auto;
+}
+
+.toolbox h3 {
+  color: #29C6CD;
+  font-weight: normal;
+  margin: 0;
+  padding: 3px;
+}
+
+.tools {
+  overflow: hidden;
+  margin: 0;
+  padding: 0 0 10px;
+}
+
+.tool {
+  list-style: none;
+  display: block;
+  margin: 4px 2px;
+  background: #fff;
+  font-size: 0.7em;
+  color: gray;
+  overflow: hidden;
+  border-radius: 5px;
+  cursor: default;
+}
+
+.tool span {
+  float: left;
+  color: #C9D6DF;
+  border-left: 10px solid #C9D6DF;
+  padding: 7px 9px;
+}
+
+.tool strong {
+  padding: 7px 5px;
+  float: right;
+  color: #08D9D6;
+  font-weight: normal;
+}
+
+.tool:hover span {
+  border-color: #A0EECC;
+}
+
+.currentTool span,
+.currentTool:hover span {
+  border-color: #F38181;
+}
+
+.layers {
+  margin: 4px 0;
+  padding: 0;
+}
+
+.ghost {
+  font-family: "Input Mono", monospace;
+}
+
