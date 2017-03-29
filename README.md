@@ -12,7 +12,7 @@ Archetype is heavily work in progress. Pull-requests and feedbacks are welcome!
 
 ### Creating a new tool
 
-The toolset are defined in `src/tools.js`. Here is an example preset:
+The toolset is defined on `src/tools.js`. Here is an example preset:
 
 ```javascript
   'checkbox': {
