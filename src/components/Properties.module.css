@@ -109,3 +109,17 @@
   padding: 0;
   margin: 0;
 }
+
+footer {
+  position: absolute;
+  bottom: 0;
+  padding: 20px 0;
+  line-height: 1.9em;
+  font-size: 0.8em;
+  text-align: right;
+  width: 85%;
+}
+
+footer a {
+  color: gray;
+}

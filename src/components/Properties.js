@@ -131,6 +131,11 @@ export default function Properties({
           )) }
         </div>
       )}
+      <footer>
+      <a href="https://github.com/fatiherikli/archetype">Source code</a>
+      <br />
+      <a href="https://github.com/fatiherikli/archetype#known-issues">Known Issues</a>
+      </footer>
     </div>
   );
 }
