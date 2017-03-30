@@ -38,6 +38,6 @@ export function checkbox(text, { content }) {
 }
 ```
 
-Online demo:
+Try it online:
 
 <http://fatiherikli.github.io/archetype>
