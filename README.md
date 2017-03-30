@@ -2,6 +2,8 @@
 
 Ascii prototyping tool for web interfaces.
 
+![screenshoot](https://fatiherikli.github.io/archetype/static/example.PNG)
+
 ### Known issues
 
 Archetype is heavily work in progress. Pull-requests and feedbacks are welcome!
