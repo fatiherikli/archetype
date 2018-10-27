@@ -2,7 +2,7 @@
 
 Ascii prototyping tool for web interfaces.
 
-![screenshoot](https://fatiherikli.github.io/archetype/static/example.PNG)
+![screenshoot](https://otomat-hackathon.github.io/archetype/static/example.PNG)
 
 ### Known issues
 
@@ -40,4 +40,4 @@ export function checkbox(text, { content }) {
 
 Try it online:
 
-<http://fatiherikli.github.io/archetype>
+<https://otomat-hackathon.github.io/archetype>
